@@ -32,20 +32,21 @@ This project aims to predict stock prices by integrating sentiment analysis of f
     ```
 2. Navigate to the project directory:
     ```bash
-    cd stock-price-prediction
+    cd Stock_Price_Prediction_With_Sentiment_Analysis
     ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. Install the required dependencies.
 
 4. Change the ticker symbol in the configuration file. Ticker symbols can be found in the provided `Yahoo-Finance-Ticker-Symbols.csv` file.
 
 ## Usage
 
-1. Run the stock-price-prediction_ml.ipynb file.
+1. Run the Linear_Regression.ipynb file for using linear regression model.
+
+2. Run the ARIMA.ipynb file for using Auto-Regressive Integrated Moving Averages (ARIMA) model.
+
+3. Run the LSTM.ipynb file for using Long Short Term Memory (LSTM) model. 
   
-2. The results, including sentiment analysis and predicted stock prices, will be displayed in the console and visualized as plots.
+4. The results, including sentiment analysis and predicted stock prices, will be displayed in the console and visualized as plots.
 
 ## Key Libraries and Tools
 
